@@ -9,9 +9,9 @@ function getHoneyedWords() {
 
 // 发送邮件函数
 async function sendMail(text) {
-  var user = "486178631@qq.com";//自己的邮箱
-  var pass = "ziiswywmhxeebhdg"; //qq邮箱授权码,如何获取授权码下面有讲
-  var to = "1745948505@qq.com";//对方的邮箱
+  var user = "xxxx@qq.com";//自己的邮箱
+  var pass = "xxxx"; //qq邮箱授权码,如何获取授权码下面有讲
+  var to = "xxxx@qq.com";//对方的邮箱
   let transporter = nodemailer.createTransport({
     host: "smtp.qq.com",
     port: 587,
